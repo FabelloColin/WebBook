@@ -67,29 +67,30 @@
                          <h2>If you got a project, idea or something else, or just wanna get in touch with me, contact me with this form or with my mail.</h2>
                     </div>
 
-                    <form action="#" method="post">
+                    <form action="php/contactform.php" method="post" id="contact-form">
                          <div class="col-md-6 col-sm-6">
-                              <input type="text" class="form-control" placeholder="Name">
+                              <input type="text" class="form-control" placeholder="Name" name="Name">
                          </div>
                          <div class="col-md-6 col-sm-6">
-                              <input type="email" class="form-control" placeholder="Email">
+                              <input type="email" class="form-control" placeholder="Email" name="Email">
                          </div>
                          <div class="col-md-6 col-sm-6">
-                              <input type="telephone" class="form-control" placeholder="Phone Number">
+                              <input type="telephone" class="form-control" placeholder="Phone Number" name="PhoneNumber">
                          </div>
                          <div class="col-md-6 col-sm-6">
-                              <select class="form-control">
+                              <select class="form-control" name="Subject">
                                    <option>Project Type</option>
+                                   <option>Professional purposes</option>
                                    <option>Visual Identity</option>
                                    <option>Music Production</option>
                                    <option>Coding</option>
                               </select>
                          </div>
                          <div class="col-md-12 col-sm-12"> 
-                              <textarea class="form-control" rows="5" placeholder="Project Details"></textarea>
+                              <textarea class="form-control" rows="5" placeholder="Project Details" name="Message"></textarea>
                          </div>
                          <div class="col-md-3 col-sm-4">
-                              <input type="submit" class="form-control" value="Send Message">
+                              <input type="submit" class="form-control" value="Send Message" name="Submit">
                          </div>
                     </form>
                </div>
@@ -126,6 +127,8 @@
 
 <!-- SCRIPTS -->
 
+
+<script src="php/contactform.php"></script>
 <script src="js/jquery.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/custom.js"></script>
