@@ -42,5 +42,5 @@ var allowedKeys = {
     var audio = new Audio('sounds/secret.mp3');
     audio.play();
     //alert("Cheat Code activated!");
-    alert("Bien joué Léna! Tu as découvert le trésors !!!! Envoie un message à Colin pour lui dire, et sâche que tu as gagné un joli body!!! \n Tu pourras donc le choisir avec ton copain préféré, qui viens a paris le weekend du 10 grâce à une convention de stage!!!!!! Je t'aime");
+    alert("Bien joué Léna! Tu as découvert le trésors !!!! Envoie un message à Colin pour lui dire, et sâche que tu as gagné un joli cadeau!!! \n Tu pourras donc le choisir avec ton copain préféré, qui viens a paris le weekend du 10 grâce à une convention de stage!!!!!! Je t'aime");
   }
